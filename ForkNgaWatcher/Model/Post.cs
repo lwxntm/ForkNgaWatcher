@@ -34,7 +34,7 @@
             public string _ATTACH_BASE_VIEW { get; set; }
         }
 
-      
+
 
         public class DirectionaryT
         {

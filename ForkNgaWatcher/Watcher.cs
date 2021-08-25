@@ -119,8 +119,7 @@ namespace ForkNgaWatcher
         {
             _ = "https://sctapi.ftqq.com"
                 .WithClient(new FlurlClient())
-                //将下面一行修改为自己的server酱的APIKey.send
-                .AppendPathSegment("")
+                .AppendPathSegment($"{_idConfig.ServerJAPIKEY}.send")
                 .SetQueryParams(new { title = subject, desp = content })
                 .GetAsync().Result;
         }

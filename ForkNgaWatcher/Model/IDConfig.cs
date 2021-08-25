@@ -12,11 +12,16 @@
 
             if (this.WatchUIds == null)
                 this.WatchUIds = new List<string>();
+
+            if (this.ServerJAPIKEY == null)
+                this.ServerJAPIKEY = "APIKEY";
         }
         public string NgaPassportCID { get; set; }
 
         public string NgaPassportUID { get; set; }
 
         public List<string> WatchUIds { get; set; }
+
+        public string ServerJAPIKEY { get; set; }
     }
 }

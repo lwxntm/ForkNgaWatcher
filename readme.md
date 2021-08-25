@@ -1,4 +1,4 @@
-﻿﻿
+﻿﻿﻿
 
 > `ngaPassportCid` （cookie 中的 ngaPassportCid 值）
 
@@ -7,4 +7,4 @@
 > `watchId` （你要关注的人的 UID）
 
 
-server酱的APIKey放到Watcher的第123行
+以及server酱的APIKey
